@@ -9,12 +9,14 @@ int get(int i, int j){
     j--;
     return (a+(i*3)+j);
 }
-void set(int i, int j, int v){
+
+void set(int i, int j, int o){
     i--;
     j--;
-    *h = v;
-    int h = &(a+(i3)+j);
+    *r = o;
+    int r = &(a+(i3)+j);
 }
+
 void dump(){
         cout << "已知二維陣列 轉 一維陣列";
         for(int i=0; i<sizeof(a)/sizeof(int); i++){
